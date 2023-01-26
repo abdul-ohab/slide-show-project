@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: aquamarine;
+} 
+
+.elements{
+
+}
+
+.element{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%) scale(0); 
+}
+
+.element i,p{
+    color: coral;
+    font-size: 6rem;
+    font-weight: bold;  
+}
+
+.element.current{
+    transform: translate(-50%,-50%) scale(1); 
+}
